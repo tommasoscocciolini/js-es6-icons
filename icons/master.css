@@ -9,6 +9,7 @@
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 span, i{
@@ -18,7 +19,7 @@ span, i{
 #res li{
   margin: 30px;
   height: 10vh;
-  width: 15vw;
+  width: 20vw;
   list-style: none;
   display: inline;
   font-size: 2em;
@@ -41,4 +42,8 @@ span, i{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.containerTitle{
+  background-color: #ffffff;
 }
